@@ -21,6 +21,54 @@
         <meta name="twitter:url" content="https://yourwebsite.com"> <!-- Replace with your website URL -->
     
         <style>
+                    
+                /* Existing styles... */
+            
+                @media (max-width: 768px) {
+                    body {
+                        font-size: 14px; /* Adjust font size for smaller screens */
+                    }
+                    header {
+                        padding: 10px;
+                    }
+                    header h1 {
+                        font-size: 1.8rem; /* Smaller font size for the header */
+                    }
+                    header p {
+                        font-size: 1rem;
+                    }
+                    nav {
+                        margin: 10px;
+                    }
+                    nav a {
+                        display: block; /* Stack navigation links vertically */
+                        margin: 5px 0;
+                    }
+                    .hero {
+                        height: 300px; /* Reduce hero section height */
+                        background-size: cover;
+                    }
+                    .hero img.profile {
+                        width: 100px; /* Smaller profile image */
+                        height: 100px;
+                        bottom: -50px; /* Adjust position */
+                    }
+                    .hero h1 {
+                        font-size: 2rem;
+                    }
+                    .hero p {
+                        font-size: 1.2rem;
+                    }
+                    .section {
+                        padding: 15px;
+                        margin: 10px;
+                    }
+                    footer {
+                        padding: 5px;
+                        font-size: 0.9rem;
+                    }
+                }
+        
     
         body {
             font-family: 'Lato', sans-serif;
