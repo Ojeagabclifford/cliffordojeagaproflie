@@ -32,7 +32,10 @@
 .container1
 {
   
-  height: 500px;
+  /* height: 500px; */
+  overflow-y: scroll;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 .container2
@@ -50,8 +53,15 @@
 }
 
 .container3 h1 {
-  font-weight: bolder;
+  /* font-weight: bolder; */
   margin-left: 10%;
+  font-size: small;
+}
+a{
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: var(--acent);
 }
 
 .container3 p{
@@ -182,3 +192,6 @@ ul li::before
   margin-left: auto;
   margin-right: auto;
 } */
+#resume{
+  height: 100vh;
+}
